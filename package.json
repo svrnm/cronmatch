@@ -1,0 +1,17 @@
+{
+  "name": "cronmatch",
+  "version": "0.0.1",
+  "description": "cronmatch checks if a date/time is matched by a cron expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cron",
+    "match",
+    "date",
+    "time"
+  ],
+  "author": "Severin Neumann <severin.neumann@altmuehlnet.de>",
+  "license": "ISC"
+}
