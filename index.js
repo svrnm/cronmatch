@@ -102,8 +102,6 @@ function match(expression, date) {
 		const current = date['get' + fields[index]]() + (fields[index] === 'Month' ? 1 : 0)
 		check = expand(check, fields[index], date)
 
-		console.log(check, current)
-
 		return carry && check.includes(current)
 	}, true)
 }

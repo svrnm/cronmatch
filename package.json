@@ -1,6 +1,6 @@
 {
   "name": "cronmatch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cronmatch checks if a date/time is matched by a cron expression",
   "main": "index.js",
   "scripts": {
