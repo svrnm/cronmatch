@@ -2,14 +2,12 @@
 
 cronmatch checks if a date/time is matched by a cron expression.
 
-
-# Usage
+## Usage
 
 The `match` method accepts two parameters:
 
 * a cron expression
 * a date (or something that can be converted to a date)
-
 
 ```javascript
 const cronmatch = require('cronmatch')
@@ -24,3 +22,13 @@ if (cronmatch.match(['* * * * * 3 *','* * * 29 2 * *'], Date.now())) {
   ...
 }
 ```
+
+## Contribute
+
+If you'd like to contribute to this project, check out our
+[contribution guidelines](./CONTRIBUTING.md).
+
+## Support
+
+If you have any questions or concerns, get in touch with us by
+[raising an issue](https://github.com/svrnm/cron-match/issues).
